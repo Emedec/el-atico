@@ -108,6 +108,21 @@ footer {
   display: flex;
   justify-content: center;
 }
+.divider-index {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white !important;
+  height: 2px;
+  margin-top: 0 !important;
+  margin-bottom: 40px !important;
+}
+.divider-index-container {
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+  margin-top: 0 !important;
+}
 .divider {
   width: 80%;
   height: 2px;
