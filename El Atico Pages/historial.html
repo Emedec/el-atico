@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
     <title>Historial</title>
-    
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="logo-container">
-    
-            <img class="elaticologowhite" src="../IMAGENES/EL ATICO LOGO White.png">
-        </div>
-        <nav>
-            <ul>
-                <li> <a Home href="../index.html"> Home</a></li>
-                <li> <a Historial href= "./historial.html"> Historial</a></li>
-                <li> <a Proximas Proximas fechas href= "./proximas-fechas.html"> Proximas fechas</a></li>
-                <li> <a Fotos href="./fotos.html"> Fotos</a></li>
-                <li> <a Contacto href="./contacto.html"> Contacto</a></li>
-            </ul>
-        </nav>
-    </header> 
-    <h1><b>Historial de fechas</b></h1>
-    <section>
-        <h2>Progressive</h2>
+      <div class="logo-container">
+        <img
+          class="elaticologowhite"
+          src="../IMAGENES/EL ATICO LOGO White.png"
+        />
+      </div>
+      <nav>
         <ul>
+          <li><a Home href="../index.html"> Home</a></li>
+          <li><a Historial href="./historial.html"> Historial</a></li>
+          <li>
+            <a Proximas Proximas fechas href="./proximas-fechas.html">
+              Proximas fechas</a
+            >
+          </li>
+          <li><a Fotos href="./fotos.html"> Fotos</a></li>
+          <li><a Contacto href="./contacto.html"> Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="m-5"><b>Historial de fechas</b></h1>
+    <section class="container">
+      <div class="row history-container-row gy-5">
+        <div class="col-sm-12 col-md-6 col-lg-3 card-history-genre">
+          <h3>Progressive</h3>
+          <ul>
             <li>D-Nox / Waiss</li>
             <li>Graziano Raffa / Fran Bux b2b Waiss</li>
             <li>Soundexille / Paul deep / Waiss</li>
@@ -36,9 +49,12 @@
             <li>Sebastian Busto / Lore Iturralde</li>
             <li>Topo Larroca / Waiss</li>
             <li>Emi galvan / Waiss</li>
-        </ul>
-        <h3>House / Tech house</h3>
-        <ul>
+            <li>Martin Decunto b2b Tale Of Us</li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 card-history-genre">
+          <h3>House / Tech house</h3>
+          <ul>
             <li>Nacho Bolognani / Igna Farres</li>
             <li>Jorge Savoretti / Igna Farres</li>
             <li>Ale Castro / Igna Farres</li>
@@ -46,35 +62,43 @@
             <li>Elio Riso / Arevalo</li>
             <li>Agus Ferreyra / Igna Farres</li>
             <li>Matias Sundblad / Løvø / Waiss</li>
-        </ul>
-        <h3>Techno</h3>
-        <ul>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 card-history-genre">
+          <h3>Techno</h3>
+          <ul>
             <li>Pan-Pot / Nilo R. / German Carrizo / Lautaro Ibañez</li>
             <li>Nilo R / Lautaro Ibañez</li>
             <li>Deborah De Luca / Nilo R. / Waiss</li>
             <li>Nicolas Taboada / Lautaro Ibañez</li>
-            <li>Demon Noise b2b Myoos / Sofia Gelardi / Melman b2b Berni Toledo</li>
+            <li>
+              Demon Noise b2b Myoos / Sofia Gelardi / Melman b2b Berni Toledo
+            </li>
             <li>Lautaro Ibañez b2b Myoos</li>
-        </ul>
-        <h4>Melodic Techno/House</h4>
-        <ul>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 card-history-genre">
+          <h3>Melodic Techno/House</h3>
+          <ul>
             <li>Juan Elvadin / Reverie</li>
             <li>Who Else / Reverie</li>
             <li>Bob Tosh / Innerside</li>
             <li>Just Feel / Holy Mery / Latente</li>
-        </ul>
+          </ul>
+        </div>
+      </div>
     </section>
-    <br>
-    <br>
-    <br>
-    <section>
-        <h5><b>¿A quien mas te gustaria ver?</b> </h5>
-        <p>¡Dejanos el nombre de tu artista favorito!</p> 
+    <br />
+    <br />
+    <br />
+    <section class="recommendation-section">
+      <h5><b>¿A quien mas te gustaria ver?</b></h5>
+      <p>¡Dejanos el nombre de tu artista favorito!</p>
 
-        <form>
-            <textarea name="" id="" cols="30" rows="2"></textarea>
-            <input type="submit">
-        </form>
+      <form>
+        <textarea name="" id="" cols="30" rows="2"></textarea>
+        <input type="submit" />
+      </form>
     </section>
-</body>
+  </body>
 </html>

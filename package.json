@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-coder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./ElAtico Pages/styles/style.scss ./El Atico Pages/styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emedec/el-atico.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emedec/el-atico/issues"
+  },
+  "homepage": "https://github.com/Emedec/el-atico#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
